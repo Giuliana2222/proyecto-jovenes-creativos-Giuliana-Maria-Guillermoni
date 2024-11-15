@@ -1,0 +1,30 @@
+#banner{
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-position: 0 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: black;
+}
+
+#banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+
+#banner h1{
+    font-family: 'Koulen', sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+#banner p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
