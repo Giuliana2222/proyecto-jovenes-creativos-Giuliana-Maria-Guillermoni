@@ -1,0 +1,11 @@
+input, select {
+    width: 300px;
+    padding: 10px;
+    margin: 15px auto;
+    display: block;
+}
+
+select {
+    width: 324px;
+    margin-top: 10px;
+}
