@@ -13,3 +13,50 @@
     margin-top: 100px;
     object-position: 0 48%;
 }
+
+
+#services {
+    padding: 40px 20px;
+}
+
+#services h2 {
+    width: 100%;
+}
+
+#services div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: scale(1.05);
+}
+
+article h3 {
+    margin: 10px 0;
+    color: #444;
+}
+
+article p {
+    color: #666;
+    margin: 10px 0;
+}
+
+article p strong {
+    color: #222;
+    font-weight: bold;
+}
