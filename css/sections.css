@@ -60,3 +60,15 @@ article p strong {
     color: #222;
     font-weight: bold;
 }
+
+#reviews {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#reviews p {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+}
